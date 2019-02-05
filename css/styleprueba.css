@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area{
+	padding-right: 350px;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #FFFFFF !important;
+}
+.header-area.sticky .navbar-light .nav-link{
+	color: #000;
+}
+.header-area.sticky .navbar-brand .d-none{
+	display: block !important;
+}
+.header-area.sticky .navbar-brand .mostrar{
+	display: none !important;
+}
+#home{
+	padding-top: 200px;
+	padding-bottom: 500px; 
+	background-image: url(../img/hero-1.jpg);
+	position: relative;
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+#home h4{
+	text-align: center; 
+	font-family: 'Dancing Script', cursive;
+	color: #b98d36;
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+}
+#home h3{
+	text-align: center; 
+	color: #fff; 
+	font-family:  'Open Sans', sans-serif;
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+}
+#home h2{
+	text-align: center; 
+	color: #fff; 
+	font-family:  'Open Sans', sans-serif;
+	font-weight: 900;
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+}
+#home .img-fluid{
+	padding-left: 350px; 
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+}
+#home .button{
+	 padding-left: 515px;
+}
+.btn-white{
+	background-color: #b98d36;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0.5;
+	padding: 10px 25px;
+	font-size: 16px;
+	font-weight: 800px;  
+}
+.btn-white:hover{
+	background-color: #926C22;
+	color: #fff;
+}
+.section{
+	padding: 5% 0;
+}
+#menus{
+	background-color: #D9D9D9; 
+}
+#menus h2{
+	text-align: center; 
+	color: #b98d36; 
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+}
+#menus p{
+	text-align: center;
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+	 
+}
+#menus .img-fluid{
+	padding-left: 500px; 
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+}
+#menus .img-fluid1{
+	align-content: center; 
+	padding-top: 20px; 
+	padding-bottom: 12px;
+	padding-left: 150px
+}
+#menus2 h4{
+	text-align: center; 
+	font-family: 'Dancing Script', cursive;
+	color: #b98d36;
+	padding-top: 12px; 
+}
+#menus2 h3{
+	text-align: center; 
+	color: #666; 
+	font-family:  'Open Sans', sans-serif; 
+	padding-bottom: 12px;
+}
+#menus2 p{
+	text-align: center;
+	padding-top: 12px; 
+	padding-bottom: 12px; 
+	 
+}
+#events h2, h3, .imgevents{
+	align-content: center;
+	text-align: center;
+}
+#events{
+	background-color: #F0F0F0;
+	padding-bottom:  30px;
+}
+#events .imgevents{
+	padding-left: 400px;
+	padding-bottom:  50px;
+}
+#events h2{
+	font-family: 'Dancing Script', cursive;
+	padding-top: 65px;
+	color:  #7A6200;
+}
+
+#about{
+	background-image: url(../img/about-bg.jpg);
+}
+#about p{
+	padding-top: 5px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+#about h2,h3,p,h4{
+	text-align: center;
+	color: #FFFFFF;
+}
+#about h2, h4{
+	font-family: 'Dancing Script', cursive;
+}
+#about h2{
+	color:  #7A6200;
+}
+#about h4{
+	padding-top:  40px;
+	padding-bottom: 40px;
+}
+#about .btn-primary .btn .btn-block{
+	color: #000000;
+	border:  #D0B212;
+	padding: 80px;
+	
+}
+#about .imgabout{
+	padding-left: 300px;
+}
+#about h2{
+	padding-top: 65px;
+}
+
+
+
+
+#contact h2{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color:  #7A6200;
+}
+#contact h3{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+#contact p{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+#contact h4{
+	color: #7A6200;
+	font-weight: 300;
+	text-align: center;
+	font-size: 15px;
+}
+#contact a{
+	color: #7A6200;
+}
+#contact  .btn-primary{
+	background-color: #D0B212;
+	border: #FFFFFF;
+}
+
+
+
+
+
+#footer-menu  h4{
+	font-weight: bold;
+	
+	
+}
+#footer-menu{
+	background-color: #111;
+	color: #fff;
+	padding: 20px 0;
+}
+
+#footer-menu h3{
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom: 1px dotted #666;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+}
+
+#footer-menu ul{
+	list-style: none;
+}
+
+#footer-menu ul a{
+	color: #aaa;
+}
+
+#footer-menu ul a:hover{
+	color: #fff;
+}
+#footer .btn-light {
+	background-color: #D0B212;
+}
+
+#footer-copy{
+	background-color: #222;
+	color: #fff;
+	padding: 10px 0;
+	border-top: 1px solid #333;
+	
+}
+
+#footer-copy a{
+	color:#aaa;
+	
+}
+
+#footer-copy a:hover{
+	color:#fff;
+	
+}
